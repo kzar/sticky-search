@@ -1,0 +1,25 @@
+{
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  },
+  "manifest_version": 2,
+  "minimum_chrome_version": "50",
+  "name": "Ebay Sticky Search",
+  "short_name": "Ebay Sticky Search",
+  "description": "Make advanced Ebay search parameters stick!",
+  "content_scripts": [
+    {
+      "run_at": "document_end",
+      "matches": ["*://*.ebay.co.uk/sch/ebayadvsearch*"],
+      "js": ["restoreForm.js"]
+    }
+  ],
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "*://*.ebay.co.uk/*"
+  ],
+  "version": "0.1.0"
+}
