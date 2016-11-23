@@ -17,6 +17,7 @@
     }
   ],
   "permissions": [
+    "storage",
     "webRequest",
     "webRequestBlocking",
     "*://*.ebay.co.uk/*"
