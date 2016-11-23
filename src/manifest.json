@@ -6,8 +6,8 @@
   },
   "manifest_version": 2,
   "minimum_chrome_version": "50",
-  "name": "Ebay Sticky Search",
-  "short_name": "Ebay Sticky Search",
+  "name": "Sticky Search",
+  "short_name": "Sticky Search",
   "description": "Make advanced Ebay search parameters stick!",
   "content_scripts": [
     {

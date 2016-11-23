@@ -1,10 +1,10 @@
-# Ebay Sticky Search
+# Sticky Search
 
 ## Introduction
 
 Tiny Chrome extension that makes advanced search preferences sticky. Avoids
-having to manually select preferences such as "UK Only" every time you perform a
-Ebay search.
+having to manually select preferences such as "UK Only" every time you perform
+an Ebay search.
 
 ## Installation
 
