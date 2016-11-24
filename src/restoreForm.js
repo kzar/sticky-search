@@ -47,4 +47,3 @@ chrome.runtime.sendMessage({
       if (field.name in fieldValues)
         restoreField(field, fieldValues[field.name]);
 });
-
