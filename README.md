@@ -8,10 +8,7 @@ an Ebay search.
 
 ## Installation
 
-1. Download the [ebay-sticky-search.crx](https://github.com/kzar/ebay-sticky-search/raw/master/ebay-sticky-search.crx) file.
-2. Open the Google Chrome Settings screen.
-3. Switch to the Extensions tab.
-4. Drag the ebay-sticky-search.crx file onto Chrome.
+[Click here to install the Sticky Search extension.](https://chrome.google.com/webstore/detail/jilhjedkmdkjnakneokjnapaaddklfbd/)
 
 ## Usage
 
