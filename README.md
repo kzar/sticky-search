@@ -8,7 +8,7 @@ an Ebay search.
 
 ## Installation
 
-[Click here to install the Sticky Search extension.](https://chrome.google.com/webstore/detail/jilhjedkmdkjnakneokjnapaaddklfbd/)
+[Click here to install the Sticky Search extension.](https://chrome.google.com/webstore/detail/sticky-search/jilhjedkmdkjnakneokjnapaaddklfbd)
 
 ## Usage
 
