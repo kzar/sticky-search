@@ -12,7 +12,8 @@
   "content_scripts": [
     {
       "run_at": "document_end",
-      "matches": ["*://*.ebay.co.uk/sch/ebayadvsearch*"],
+      "matches": ["*://*/sch/ebayadvsearch*"],
+      "include_globs": ["*://*.ebay*/ebayadvsearch*"],
       "js": ["restoreForm.js"]
     }
   ],
@@ -20,7 +21,25 @@
     "storage",
     "webRequest",
     "webRequestBlocking",
-    "*://*.ebay.co.uk/*"
+    "*://*.ebay.co.uk/*",
+    "*://*.ebay.com/*",
+    "*://*.ebay.com.au/*",
+    "*://*.ebay.at/*",
+    "*://*.ebay.be/*",
+    "*://*.ebay.ca/*",
+    "*://*.ebay.com.cn/*",
+    "*://*.ebay.fr/*",
+    "*://*.ebay.de/*",
+    "*://*.ebay.com.hk/*",
+    "*://*.ebay.it/*",
+    "*://*.ebay.com.my/*",
+    "*://*.ebay.nl/*",
+    "*://*.ebay.ph/*",
+    "*://*.ebay.com.sg/*",
+    "*://*.ebay.es/*",
+    "*://*.ebay.se/*",
+    "*://*.ebay.ch/*",
+    "*://*.ebay.com.tw/*"
   ],
   "version": "0.1.0"
 }

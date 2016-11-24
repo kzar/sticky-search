@@ -42,8 +42,9 @@ chrome.runtime.sendMessage({
   type: "clearValues",
   fieldNames: Array.from(fieldNames)
 }, fieldValues => {
-  for (let field of allFields())
-    if (field.name in fieldValues)
-      restoreField(field, fieldValues[field.name]);
+  if (fieldValues)
+    for (let field of allFields())
+      if (field.name in fieldValues)
+        restoreField(field, fieldValues[field.name]);
 });
 

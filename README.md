@@ -15,14 +15,7 @@ an Ebay search.
 
 ## Usage
 
-1. Perform an advanced search on ebay.co.uk.
-2. Further searches will re-use the selected search preferences until the
-   advanced search page is next displayed or Chrome is restarted.
-
-## Limitations
-
-I threw this together very quickly, some limitations:
-
-- UK Ebay domains hard-coded, so won't work for other countries.
-- Not in Chrome Web Store so updates won't work.
-- No icon.
+Each time you perform an advanced search on Ebay your preferences will be saved
+and re-used until you next perform an advanced search. (If you want to clear all
+saved preferences simply view the advanced search page and then close it,
+without performing a search.)

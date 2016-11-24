@@ -54,5 +54,4 @@ chrome.webRequest.onBeforeRequest.addListener(details =>
       chrome.storage.local.set({fieldValues: fieldValues});
     }
   }
-// FIXME - Don't hardcode .co.uk domains
-}, {urls: ["*://*.ebay.co.uk/sch/i.html?*"]}, ["blocking"]);
+}, {urls: ["*://*/sch/i.html?*"]}, ["blocking"]);
